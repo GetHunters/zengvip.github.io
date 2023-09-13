@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>情人节限定贩</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<style type="text/css">
+		@font-face {
+			font-family: digit;
+			src: url('./assets/fonts/digital.ttf') format("truetype");
+		}
+	</style>
+	<link href="./assets/css/default.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	</link>
+	<script type="text/javascript" src="./assets/js/jquery.js"></script>
+	<script type="text/javascript" src="./assets/js/garden.js"></script>
+	<script type="text/javascript" src="./assets/js/functions.js"></script>
+</head>
+
+<body>
+	<div id="mainDiv">
+		<div id="content">
+			<div id="code">
+				<span class="comments"># I'm Mr.Zeng </span><br />
+				<span class="ccccc"># 我 是 曾 闯 </span><br />
+				<span class="comments"># Today is the first Western holiday we know.</span><br />
+				<span class="ccccc"># 今天是西方情人节。</span><br />
+				<span class="comments"># I felt like I should do something.</span><br />
+				<span class="ccccc"># 我觉得我应该做点什么.</span><br /><br />
+				<span class="comments"># I was going to walk around</span><br />
+				<span class="ccccc"># 我本来是要行走江湖的 </span><br />
+				<span class="comments"># But when I see you, I think I can stop first</span><br />
+				<span class="ccccc"># 但看见你我觉得可以先停一停</span><br />
+				<span class="comments"># Until I met you</span><br />
+				<span class="ccccc"># 认识你之前</span><br />
+				<span class="comments"># I always thought it was good to be single</span><br />
+				<span class="ccccc"># 我一直觉得单身真好</span><br />
+				<span class="comments"># After I met you</span><br />
+				<span class="ccccc"># 认识你之后</span><br />
+				<span class="comments"># I pray every day that all shall be well, Jack shall have Jill</span><br />
+				<span class="ccccc"># 我每天都在祈祷有情人终成眷属</span><br />
+				<span class="comments"># If you feel unhappy,</span><br />
+				<span class="ccccc"># 如果你觉得不开心的话</span><br />
+				<span class="comments"># You can just bully me, well</span><br />
+				<span class="ccccc"># 你就尽情的欺负我好了</span><br />
+				<span class="comments"># I like you anyway</span><br />
+				<span class="ccccc"># 反正我很喜欢你</span><br />
+				<span class="comments"># I cannot guarantee you one without quarrel and disagreement love</span><br />
+				<span class="ccccc"># 我无法保证给你一个没有争吵和分歧的爱情</span><br />
+				<span class="comments"># But I can guarantee that</span><br />
+				<span class="ccccc"># 但我能保证</span><br />
+				<span class="comments"># As long as you insist ,I will never abandon></span><br />
+				<span class="ccccc"># 只要你坚持，我一定会不离不弃</span><br /><br />
+				<span class="comments"># 2023.2.14 </span><br />
+			</div>
+			<div id="loveHeart">
+				<canvas id="garden"></canvas>
+				<div id="words">
+					<div id="messages">
+						Yu Jing, I have fallen in love with you for
+						<div id="elapseClock"></div>
+					</div>
+					<div id="loveu">
+						Love u forever and ever.<br />
+						<div class="signature"> 曾闯闯 | 余静 </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="copyright">
+			Copyright © 2023 <a href='www.zengvip.com'>www.zengvip.com</a> 2023.1.6-2203.1.5
+		</div>
+	</div>
+	<script type="text/javascript">
+		var offsetX = $("#loveHeart").width() / 2;
+		var offsetY = $("#loveHeart").height() / 2 - 55;
+		var together = new Date();
+		// 此处月份介于 0 ~ 11 之间。用本地时间表示，如 8 月要用 7 表示。
+		together.setFullYear(2023, 0, 28);
+		together.setHours(15);
+		together.setMinutes(0);
+		together.setSeconds(0);
+		together.setMilliseconds(0);
+
+		if (!document.createElement('canvas').getContext) {
+			var msg = document.createElement("div");
+			msg.id = "errorMsg";
+			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
+			document.body.appendChild(msg);
+			$("#code").css("display", "none")
+			$("#copyright").css("position", "absolute");
+			$("#copyright").css("bottom", "10px");
+			document.execCommand("stop");
+		} else {
+			setTimeout(function () {
+				startHeartAnimation();
+			}, 5000);
+
+			timeElapse(together);
+			setInterval(function () {
+				timeElapse(together);
+			}, 500);
+
+			adjustCodePosition();
+			$("#code").typewriter();
+		}
+	</script>
+</body>
+
+</html>
