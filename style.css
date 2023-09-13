@@ -76,6 +76,8 @@ body {
 }
 
 .powerST{
+	width: 100%;
+	height: 40px;
 	font-size: 15px;
 	color: rgb(20, 19, 19);
 	font-weight: 300;
