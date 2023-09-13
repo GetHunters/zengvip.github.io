@@ -75,6 +75,14 @@ body {
 	border: 0;
 }
 
+.powerST{
+	font-size: 15px;
+	color: rgb(20, 19, 19);
+	font-weight: 300;
+	font-style: italic;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 /* 分割线  下面是老版本css样式 */
 
 
