@@ -13,6 +13,16 @@ body {
 	padding: 0;
 }
 
+div {
+
+	width: 40rem;
+	height: 33rem;
+	border: 0px solid seashell;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .header {
 	/*广告位*/
 	display: flex;
