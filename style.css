@@ -13,26 +13,16 @@ body {
 	padding: 0;
 }
 
-div {
-
+.header {
+	/*广告位*/
+	height: 12.5rem;
 	width: 40rem;
-	height: 33rem;
 	border: 0px solid seashell;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.header {
-	/*广告位*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-	width: 100%;
-	height: 12.5rem;
-	border: 3px seagreen;
 	background-color: aquamarine;
+
 }
 
 
@@ -43,6 +33,13 @@ div {
 }
 
 .nav {
+	height: 3rem;
+	width: 40rem;
+	border: 0px solid seashell;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 	text-align: center;
 	margin-bottom: 20px;
 	padding: 50px 30px;
