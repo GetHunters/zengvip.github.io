@@ -16,15 +16,14 @@ body {
 
 .header {
 	/*广告位*/
-	height: 12.5rem;
-	width: auto;
+	height: 25rem;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 	border: 0px solid seashell;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: aquamarine;
 
 }
 
