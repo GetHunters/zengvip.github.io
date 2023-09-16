@@ -103,6 +103,22 @@ body {
 
 }
 
+.butter1 {
+	width: 9rem;
+	height: 3rem;
+	margin: auto;
+	padding: auto;
+	border: 1px solid rebeccapurple;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	padding: auto;
+	margin: auto;
+	text-align: center;
+}
+
 /* 分割线  下面是老版本css样式 */
 
 
@@ -110,24 +126,28 @@ h1 {
 	color: darkred;
 	font-weight: 800;
 	font-size: 30px;
+	padding: 30px;
 }
 
 h2 {
 	color: rgb(8, 8, 8);
 	font-weight: 600;
 	font-size: 28x;
+	padding: 30px;
 }
 
 h3 {
 	color: rgb(8, 8, 8);
 	font-weight: 600;
 	font-size: 24x;
+	padding: 30px;
 }
 
 h3 {
 	color: rgb(10, 10, 10);
 	font-weight: 600;
 	font-size: 21x;
+	padding: 30px;
 }
 
 h5 {
@@ -135,12 +155,14 @@ h5 {
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 2;
+	padding: 30px;
 }
 
 h6 {
 	color: rgb(65, 177, 91);
 	font-weight: 400;
 	font-size: 13px;
+	padding: 30px;
 }
 
 /*照片墙*/
