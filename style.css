@@ -1,6 +1,7 @@
 /* 移动端样式 */
 * {
 	font-family: 等线, sans-serif;
+	width: 46rem;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
@@ -16,7 +17,9 @@ body {
 .header {
 	/*广告位*/
 	height: 12.5rem;
-	width: 40rem;
+	width: auto;
+	margin: 0;
+	padding: 0;
 	border: 0px solid seashell;
 	display: flex;
 	justify-content: center;
