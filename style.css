@@ -111,6 +111,29 @@ body {
 	border: 1px solid rebeccapurple;
 }
 
+.H3ST {
+	/* 取消继承*的pad mang属性，目前用途于底部超链接 */
+	padding: 5px 0;
+	margin: 0;
+	border: 0;
+	text-align: center;
+}
+
+.H3STB {
+	/* 取消继承*的pad mang属性，目前用途于标题栏字体 */
+	padding: 30px 10px 0px 0px;
+	margin: 0;
+	border: 0;
+	text-align: center;
+}
+
+.hrefURL {
+	border: 0px solid red;
+	width: 100%;
+	height: auto;
+
+}
+
 a {
 	text-decoration: none;
 	color: white;
