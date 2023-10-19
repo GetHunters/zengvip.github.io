@@ -29,3 +29,11 @@ p {
 	padding: 30px 10px 0px 0px;
     text-align: left;
 }
+
+.StyleDome{
+	height: 188px; 
+	width: 100%; 
+	padding: 0;
+	margin: 0;
+	background-color: blueviolet;
+}
