@@ -14,6 +14,13 @@ body {
 	padding: 0;
 }
 
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+}
+
 .header {
 	/*广告位*/
 	height: 25rem;
@@ -24,15 +31,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 }
 
-
-.container {
-	width: 100%;
-	margin: 0 auto;
-	padding: 0px;
-}
 
 .nav {
 	height: 3rem;
@@ -44,15 +44,16 @@ body {
 
 	text-align: center;
 	margin-bottom: 20px;
-	padding: 50px 30px;
-	font-size: 29px;
+	padding: 66px 30px;
+	font-size: 30px;
 }
 
 .nav a {
 	text-decoration: none;
-	margin: 0 10px;
+	margin: 10px;
 	color: #333;
 	font-weight: bold;
+	padding: 66px 30px;
 }
 
 .content {
@@ -121,7 +122,7 @@ body {
 .H3STB {
 	/* 取消继承*的pad mang属性，目前用途于标题栏字体 */
 	padding: 30px 10px 0px 0px;
-	margin: 0;
+	margin: 30px;
 	border: 0;
 	text-align: center;
 }
@@ -130,6 +131,7 @@ body {
 	border: 0px solid red;
 	width: 100%;
 	height: auto;
+	box-sizing: border-box;
 
 }
 
@@ -142,19 +144,17 @@ a {
 }
 
 /* 分割线  下面是老版本css样式 */
-
+.JUNLINTIANXIA{
+	color: darkred;
+	font-weight: 800;
+	font-size: 88px;
+	padding: 30px 10px 0px 0px;
+}
 
 h1 {
 	color: darkred;
 	font-weight: 800;
 	font-size: 30px;
-	padding: 30px 10px 0px 0px;
-}
-
-.JUNLINTIANXIA{
-	color: darkred;
-	font-weight: 800;
-	font-size: 88px;
 	padding: 30px 10px 0px 0px;
 }
 
