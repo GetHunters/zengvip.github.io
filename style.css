@@ -214,6 +214,86 @@ h6 {
 	margin-right: 2%;
 }
 
+
+
+
+
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+// Codepen spesific styling - only to center the elements in the pen preview and viewport
+.container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+// End Codepen spesific styling
+
+body {
+	font-family: "Inter", sans-serif;
+	color: #303030;
+	background-color: mix(#fff, #342ead, 95%);
+}
+
+.menu {
+	display: flex;
+	flex-grow: 1;
+	height: 72px;
+	max-width: 370px;
+	border-radius: 12px;
+	overflow: hidden;
+	background-color: #fff;
+	box-shadow: 0 0 1px 0 rgba(#342ead, 0.25), 0 15px 30px 0 rgba(#342ead, 0.1);
+}
+
+.menu-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+	text-decoration: none;
+	&:focus,
+	&:hover {
+		outline: none;
+		.material-icons {
+			font-family: "Material Icons";
+			color: #342ead;
+		}
+
+		.menu-item-label {
+			color: #342ead;
+		}
+	}
+}
+
+.material-icons {
+	font-family: "Material Icons Outlined";
+	display: block;
+	margin-bottom: 4px;
+	font-size: 26px;
+	color: mix(#fff, #342ead, 60%);
+	transition: 0.25s ease;
+}
+
+.menu-item-label {
+	display: block;
+	font-size: 13px;
+	color: mix(#fff, #342ead, 70%);
+	transition: 0.25s ease;
+}
+
+
 .container>img:hover {
 	opacity: 2;
 }
