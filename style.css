@@ -5,6 +5,7 @@
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
+	box-sizing: border-box;
 }
 
 body {
@@ -219,13 +220,7 @@ h6 {
 
 
 
-*,
-*:after,
-*:before {
-	box-sizing: border-box;
-}
 
-// Codepen spesific styling - only to center the elements in the pen preview and viewport
 .container {
 	position: absolute;
 	top: 0;
