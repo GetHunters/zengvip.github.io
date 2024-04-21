@@ -37,7 +37,7 @@ body {
 
 .nav {
 	height: 3rem;
-	width: 40rem;
+	width: 100%;
 	border: 0px solid seashell;
 	display: flex;
 	justify-content: center;
