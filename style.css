@@ -1,10 +1,11 @@
 /* 移动端样式 */
 * {
 	font-family: 等线, sans-serif;
-	width: 80rem;
-	margin: 0 auto;
-	padding: 0;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
 	text-align: center;
+	height:auto;
 }
 
 body {
