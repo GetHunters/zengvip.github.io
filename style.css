@@ -215,6 +215,8 @@ h6 {
 }
 /* 超链字体 */
 .rainbow-hover {
+	weight:88px;
+	height:20px;
   font-size: 16px;
   font-weight: 700;
   color: #ff7576;
