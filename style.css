@@ -1,11 +1,10 @@
 /* 移动端样式 */
 * {
 	font-family: 等线, sans-serif;
-	width: 90%;
-	margin: 0px;
-	padding: 0px;
+	width: 80rem;
+	margin: 0 auto;
+	padding: 0;
 	text-align: center;
-	height:auto;
 }
 
 body {
@@ -37,7 +36,7 @@ body {
 
 .nav {
 	height: 3rem;
-	width: 100%;
+	width: 40rem;
 	border: 0px solid seashell;
 	display: flex;
 	justify-content: center;
