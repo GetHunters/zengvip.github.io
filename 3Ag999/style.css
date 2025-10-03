@@ -1,0 +1,211 @@
+/* 移动端样式 */
+* {
+	font-family: 等线, sans-serif;
+	width: 46rem;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	/*广告位*/
+	height: 12.5rem;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	border: 0px solid seashell;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: aquamarine;
+
+}
+
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.nav {
+	height: 3rem;
+	width: 40rem;
+	border: 0px solid seashell;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 50px 30px;
+	font-size: 29px;
+}
+
+.nav a {
+	text-decoration: none;
+	margin: 0 10px;
+	color: #333;
+	font-weight: bold;
+}
+
+.content {
+	padding: 0;
+}
+
+.footer {
+	text-align: center;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.iframe {
+	width: 100%;
+	height: 27rem;
+}
+
+.DIVimg {
+	width: 40rem;
+	height: 33rem;
+	border: 0px solid seashell;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.WebApp {
+	width: 100%;
+	height: 700px;
+	border: 0;
+}
+
+.powerST {
+	font-size: 12px;
+	color: rgb(20, 19, 19);
+	font-weight: 500;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.DIVPower {
+	width: 100%;
+	height: 60px;
+	border: 0px solid seashell;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.butter1 {
+	width: 9rem;
+	height: 3rem;
+	margin: auto;
+	padding: auto;
+	border: 1px solid rebeccapurple;
+}
+
+.H3ST {
+	/* 取消继承*的pad mang属性，目前用途于底部超链接 */
+	padding: 5px 0;
+	margin: 0;
+	border: 0;
+	text-align: center;
+}
+
+.H3STB {
+	/* 取消继承*的pad mang属性，目前用途于标题栏字体 */
+	padding: 30px 10px 0px 0px;
+	margin: 0;
+	border: 0;
+	text-align: center;
+}
+
+.hrefURL {
+	text-align: center;
+	float: left;
+	padding: 5px;
+	width: auto;
+	height: auto;
+	color: rgb(0, 0, 0);
+	background-color: aqua;
+
+}
+
+/* 分割线  下面是老版本css样式 */
+
+
+h1 {
+	color: darkred;
+	font-weight: 800;
+	font-size: 30px;
+	padding: 30px 10px 0px 0px;
+}
+
+h2 {
+	color: rgb(8, 8, 8);
+	font-weight: 600;
+	font-size: 28x;
+	padding: 30px 10px 0px 0px;
+}
+
+h3 {
+	color: rgb(40, 11, 11);
+	float: left;
+	width: auto;
+	margin: 3px 6px;
+	padding: 6px;
+	text-align: center;
+}
+
+h4 {
+	color: rgb(10, 10, 10);
+	font-weight: 600;
+	font-size: 21x;
+	padding: 30px 10px 0px 0px;
+}
+
+h5 {
+	color: rgb(21, 21, 21);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 2;
+	padding: 30px 10px 0px 0px;
+}
+
+h6 {
+	color: rgb(65, 177, 91);
+	font-weight: 400;
+	font-size: 13px;
+	padding: 30px 10px 0px 0px;
+}
+
+/*照片墙*/
+.container {
+	width: auto;
+	height: auto;
+	margin: 0px;
+	position: relative;
+}
+
+.container img {
+	padding: 0px;
+	background: white;
+	border: 1% solid #ddd;
+	box-shadow: 3% rgba(50, 50, 50, 0.6);
+}
+
+.pic {
+	width: 44%;
+	margin-right: 2%;
+}
+
+.container>img:hover {
+	opacity: 2;
+}

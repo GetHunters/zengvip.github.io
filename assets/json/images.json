@@ -1,0 +1,18 @@
+getBingImages([
+    "/th?id=OHR.MossyGrottoFalls_EN-US5828454166_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "/th?id=OHR.ElephantTwins_EN-US2939253053_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "/th?id=OHR.LithuanianEggs_EN-US5086451035_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "/th?id=OHR.NIrelandGiants_EN-US3269727736_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "/th?id=OHR.KitsAspen_EN-US6734104934_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "/th?id=OHR.ArizonaPinkMoon_EN-US5941531828_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "/th?id=OHR.BlackGrouseLekking_EN-US3235220688_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "/th?id=OHR.RomanBridge_EN-US4101165688_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "/th?id=OHR.MossyGrottoFalls_EN-US5828454166_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "/th?id=OHR.ElephantTwins_EN-US2939253053_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "/th?id=OHR.LithuanianEggs_EN-US5086451035_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "/th?id=OHR.NIrelandGiants_EN-US3269727736_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "/th?id=OHR.KitsAspen_EN-US6734104934_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "/th?id=OHR.ArizonaPinkMoon_EN-US5941531828_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "/th?id=OHR.BlackGrouseLekking_EN-US3235220688_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+    "/th?id=OHR.RomanBridge_EN-US4101165688_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
+])

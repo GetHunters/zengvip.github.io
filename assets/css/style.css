@@ -1,0 +1,61 @@
+
+		h1 {
+			color: darkred;
+			font-weight: 800;
+			font-size: 30px;
+		}
+
+		h2 {
+			color: rgb(8, 8, 8);
+			font-weight: 600;
+			font-size: 28x;
+		}
+
+		h3 {
+			color: rgb(8, 8, 8);
+			font-weight: 600;
+			font-size: 24x;
+		}
+
+		h3 {
+			color: rgb(10, 10, 10);
+			font-weight: 600;
+			font-size: 21x;
+		}
+
+		h5 {
+			color: rgb(21, 21, 21);
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 2;
+		}
+
+		h6 {
+			color: rgb(65, 177, 91);
+			font-weight: 400;
+			font-size: 13px;
+		}
+		
+		/*照片墙*/
+		.container {
+			width: auto;
+			height: auto;
+			margin: 0px;
+			position: relative;
+		}
+		
+		.container img {
+			padding: 0px;
+			background: white;
+			border: 1% solid #ddd;
+			box-shadow: 3% rgba(50, 50, 50, 0.6);
+		}
+		
+		.pic {
+			width: 44%;
+			margin-right: 2%;
+		}
+		
+		.container>img:hover {
+			opacity: 2;
+		}
