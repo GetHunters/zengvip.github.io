@@ -1,7 +1,7 @@
 /* 移动端样式 */
 * {
 	font-family: 等线, sans-serif;
-	width: 46rem;
+	width: 90%;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
@@ -72,8 +72,8 @@ body {
 }
 
 .DIVimg {
-	width: 40rem;
-	height: 33rem;
+	width: 100%;
+	height: 63rem;
 	border: 0px solid seashell;
 	display: flex;
 	justify-content: center;
